@@ -16,12 +16,12 @@ More detailed usage guide and data for our code will be provided soon.
 </p> 
 
 
-### Why ROE-AA
+### Why IGSA
 
 
 
 + **Limitations of Existing Adversarial Attacks**: Current adversarial attacks have achieved successful applications across various fields. However, their effectiveness significantly declines when adversarial samples are subjected to even minor disturbances.
-+ **Motivation for ROE-AA**: To address the issue of existing methods' reduced effectiveness under unknown disturbances. Based on reverse evolutionary optimization, a novel robust adversarial attack called IGSA is proposed.
++ **Motivation for IGSA**: To address the issue of existing methods' reduced effectiveness under unknown disturbances. Based on reverse evolutionary optimization, a novel robust adversarial attack called IGSA is proposed.
 + **Theoretical Support**: Theoretical analysis shows that IGSA can increase the likelihood of adversarial samples falling under the target category distribution. This implies that the robustness of adversarial samples is competitive with that of the original data.
 + **Experimental Validation**: Extensive experiments on various tasks demonstrate that IGSA exhibits superior robustness against various unknown disturbances compared to existing methods. Experimental results also show that IGSA achieves the best transferability to target models in black-box settings.
 
