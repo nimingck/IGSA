@@ -1,8 +1,8 @@
-<h1 align="center">Robust-Adversarial-Attacks-Against-Unknown-Disturbance-via-Reverse-Evolutionary-Optimization</h1>
+<h1 align="center">Robust-Adversarial-Attacks-Against-Unknown-Disturbance-via-Inverse-Gradient-Sample(IGSA)</h1>
 
 ## About
 
-ROE-AA is the PyTorch-based code implementation of the paper "Robust Adversarial Attacks Against Unknown Disturbance via Reverse Evolutionary Optimization."
+IGSA is the PyTorch-based code implementation of the paper "Robust Adversarial Attacks Against Unknown Disturbance via Inverse Gradient Sample."
 
 More detailed usage guide and data for our code will be provided soon. 
 
@@ -12,7 +12,7 @@ More detailed usage guide and data for our code will be provided soon.
 <p align="center">
   <img src="./pic/imgnet/raa_combined_13.png" alt="示例图片" width="500" />
   <br>
-  <span style="font-size: 0.9em; color: gray;">Adversarial examples and perturbations to adversarial examples by ROE-AA.</span>
+  <span style="font-size: 0.9em; color: gray;">Adversarial examples and perturbations to adversarial examples by IGSA.</span>
 </p> 
 
 
@@ -21,9 +21,9 @@ More detailed usage guide and data for our code will be provided soon.
 
 
 + **Limitations of Existing Adversarial Attacks**: Current adversarial attacks have achieved successful applications across various fields. However, their effectiveness significantly declines when adversarial samples are subjected to even minor disturbances.
-+ **Motivation for ROE-AA**: To address the issue of existing methods' reduced effectiveness under unknown disturbances. Based on reverse evolutionary optimization, a novel robust adversarial attack called REO-AA is proposed.
-+ **Theoretical Support**: Theoretical analysis shows that REO-AA can increase the likelihood of adversarial samples falling under the target category distribution. This implies that the robustness of adversarial samples is competitive with that of the original data.
-+ **Experimental Validation**: Extensive experiments on various tasks demonstrate that REO-AA exhibits superior robustness against various unknown disturbances compared to existing methods. Experimental results also show that REO-AA achieves the best transferability to target models in black-box settings.
++ **Motivation for ROE-AA**: To address the issue of existing methods' reduced effectiveness under unknown disturbances. Based on reverse evolutionary optimization, a novel robust adversarial attack called IGSA is proposed.
++ **Theoretical Support**: Theoretical analysis shows that IGSA can increase the likelihood of adversarial samples falling under the target category distribution. This implies that the robustness of adversarial samples is competitive with that of the original data.
++ **Experimental Validation**: Extensive experiments on various tasks demonstrate that IGSA exhibits superior robustness against various unknown disturbances compared to existing methods. Experimental results also show that IGSA achieves the best transferability to target models in black-box settings.
 
 ## Requirements
 + Python >= 3.6
