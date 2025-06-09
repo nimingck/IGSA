@@ -38,7 +38,9 @@ More detailed usage guide and data for our code will be provided soon.
 We randomly sample 1,000 images from ImageNet-1K validate set, in which each image is from one category and can be correctly classified by the adopted models (For some categories, we cannot choose one image that is correctly classified by all the models. In this case, we select the image that receives accurate classifications from the majority of models.). Then you can execute the attack as follows:
 
 ```
-python main.py 
+# Imagenet-1K 
+python main.py
+# CelebA
 python face_raa.py
 ```
 
